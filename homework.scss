@@ -1,0 +1,28 @@
+@import 'node_modules/foundation-sites/scss/foundation';
+@include foundation-global-styles;
+@include foundation-grid;
+
+ul {
+        padding: 0;
+}
+
+li {
+    display: inline-block;
+}
+
+button {
+  margin: 10px;
+  line-height: 10px;
+  font-weight: bold;
+  padding: 20px;
+  background: salmon;
+  border: none;
+  border-radius: 10px;
+}
+button:hover {
+  background: lightsalmon;
+}
+
+img {
+    border-radius: 50px;
+}
